@@ -1,0 +1,74 @@
+# 🧠 AI Agent Job Target Definition
+
+## 1. 🎯 Objective
+The AI agent must identify and surface **entry-level legal roles (0–1 PQE)** in India that align with a **transactional corporate law career track**, with a focus on **M&A, Private Equity, Venture Capital, and General Corporate advisory work**.
+
+## 2. 👤 Candidate Profile (Context for Filtering)
+* Qualification: B.A. LL.B. (Hons.), Symbiosis Law School, Pune (2025 graduate)
+* Experience: ~12 months of internships
+* Practice Exposure: M&A, Private equity / venture capital deals, General corporate advisory, Due diligence, Transaction documentation, Regulatory structuring
+👉 Treat the candidate as: “A **near-ready associate**, not a generic fresher”
+
+## 3. 🔍 Target Roles (Primary Filters)
+ONLY fetch roles that match **any** of the following Titles:
+* Associate (Corporate / M&A / Transactions)
+* Junior Associate (Corporate / PE/VC / General Corporate)
+* Analyst – Legal (ONLY if transactional in nature)
+* Legal Associate (Corporate team)
+* In House Lawyer (Corporate/Non Litigation team)
+
+Practice Areas (MANDATORY MATCH, at least one):
+* Mergers & Acquisitions (M&A)
+* Private Equity (PE)
+* Venture Capital (VC)
+* General Corporate
+* Corporate Transactions
+* Transaction Advisory
+* Non Litigation
+* Corporate Advisory
+
+Work Nature (MANDATORY KEYWORDS, 2-3 of):
+* Due diligence
+* Drafting / reviewing transaction documents
+* Shareholders’ agreements (SHA), Share purchase agreements (SPA), Investment / subscription agreements
+* Corporate structuring
+* Regulatory advisory
+
+## 4. 🏢 Target Organizations
+1: Law Firms (Tier 1/2 India, Strong corporate/transactional teams)
+2: Boutique Firms (Startup-focused, PE/VC specialized, transactional practices)
+3: In-House Roles (Tech/Gaming companies, Startups, Investment firms)
+
+## 5. 📍 Location Filters
+Primary: Delhi / NCR, Mumbai, Bangalore, Pune
+
+## 6. 📊 Experience Filter Logic
+Include roles where Experience required = 0–1 PQE OR 0–2 PQE OR 0–3 PQE OR "Freshers may apply"
+👉 IMPORTANT RULE: If JD says 1–3 PQE, still include IF Role is strongly transactional AND aligns with M&A / PE / corporate work.
+
+## 7. ❌ Exclusion Criteria (STRICT)
+EXCLUDE roles involving:
+* Litigation / dispute resolution
+* Criminal law
+* Pure policy / research roles
+* Non-corporate practice areas (IP-only, tax-only, etc. unless tied to transactions)
+* Compliance-only roles with no transactional exposure
+* Jobs posted more than 1 month ago (if date is visible)
+
+## 8. 🧠 Intelligence Layer (Advanced Filtering)
+Prioritize roles involving: live deals/transactions, exposure to founders/startups/investors.
+Look for mentions of "fast-paced environment", "deal execution", "transaction lifecycle", "investment structuring".
+
+## 9. ⭐ Scoring / Ranking Logic
+Rank jobs based on:
+1. Practice area match (M&A / PE / VC = highest)
+2. Location match (Delhi highest)
+3. Role seniority fit (0–1 PQE ideal)
+4. Quality of firm/company
+5. Presence of drafting + deal exposure
+
+---
+**Instructions for extraction:**
+Please analyze the provided job posting text against the profile and rules above.
+If the job strongly violates the Exclusion Criteria or does not meet the Experience/Practice Area filters, mark it as NOT a match.
+If it is a match, extract the requested details accurately.
